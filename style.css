@@ -1,3 +1,27 @@
+@font-face {
+    font-family: "norse";
+    src: url("Assets/norse-bold-webfont.woff2") format(woff2), 
+        url("Assets/norse-bold-webfont.woff") format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "firasans";
+    src: url("Assets/firasans-ultra-webfont.woff2") format(woff2),
+        url("Assets/firasans-ultra-webfont.woff") format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "rubik";
+    src: url("Assets/rubik-regular-webfont.woff2") format(woff2)
+        url("Assets/rubik-regular-webfont.woff") format(woff);
+    font-weight: normal;
+    font-style: normal;    
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,8 +30,10 @@
 
 body{
     display: flex;
+    font-family: Helvetica, Arial,sans-serif;
 }
 
+/* Side Container */
 .side-container{
     height: 100vh;
 }
@@ -40,9 +66,10 @@ body{
 }
 
 .side-container .logo .logo-background h1{
-    font-size: 3em;
+    font-size: 5em;
     color: white;
     text-transform: uppercase;
+    font-family: "Norse", sans-serif;
 }
 
 .side-container .logo p{
