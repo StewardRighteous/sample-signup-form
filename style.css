@@ -141,6 +141,7 @@ body{
     flex-flow: column wrap;
     width: 25%;
     gap: 8px;
+    position: relative;
 }
 
 .form-element > label{
@@ -157,6 +158,8 @@ body{
     font-size: 17px;
     padding: 1px;
     opacity: 0.9;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
 /* Submit Area */
@@ -183,4 +186,29 @@ body{
 .submit-area a{
     color: #596D48;
     text-decoration: none;
+}
+
+/* Validation Styling */
+
+.form-element .required::after{
+    content: "required";
+    color:white;
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
+    position: absolute;
+    right: 0;
+}
+
+.form-element > input:focus{
+    outline: none;
+    box-shadow: 5px 5px rgb(32,32,186, 0.5);
+}
+
+.form-element > input:focus:valid{
+    border: 2px solid rgb(32, 100, 32);
+}
+
+.form-element > input:focus:invalid{
+    border: 2px solid rgb(204, 10, 10);
 }
