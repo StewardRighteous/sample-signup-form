@@ -162,6 +162,10 @@ body{
     border: 1px solid gray;
 }
 
+.form-element > p{
+    color: rgb(207, 26, 26);
+}
+
 /* Submit Area */
 .submit-area{
     margin: 50px 2vh 50px 2vh;
@@ -212,3 +216,4 @@ body{
 .form-element > input:focus:invalid{
     border: 2px solid rgb(204, 10, 10);
 }
+
