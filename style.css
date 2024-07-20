@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.side-container{
+    height: 100vh;
+}
+
+.side-container .background-image{
+    height: 100vh;
+    position: relative;
+    width: 25vw;
+}
+
+.side-container .logo{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 515px;
+    position: absolute;
+    top: 20vh;
+}
+
+.side-container .logo .logo-background{
+    background-color: rgb(12, 12, 12, 0.6);
+    height: 15vh;
+    width: max(10vw, 25vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-container .logo .logo-background img{
+   height: 90%;
+}
+
+.side-container .logo .logo-background h1{
+    font-size: 3em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.side-container .logo p{
+    text-align: center;
+    color: white;
+}
+
+.side-container .logo p a{
+    color: white;
+}
