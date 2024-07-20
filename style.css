@@ -154,7 +154,7 @@ body{
     height: 32px;
     width: 100%;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     padding: 1px;
     opacity: 0.9;
 }
@@ -170,7 +170,7 @@ body{
 }
 
 .submit-area button{
-    height: 40px;
+    height: 55px;
     font: inherit;
     font-size: 20px;
     background-color: #596D48;
